@@ -30,7 +30,7 @@ import { ref } from 'vue'
         if (user) {
           alert('Inicio de sesión exitoso')
           router.push('/content')
-          // Aquí puedes redirigir al usuario o hacer cualquier otra acción
+          // Funcion correcta para redireccionar pero no lo hace :(
         } else {
           alert('Correo o contraseña incorrecta')
         }
